@@ -1,0 +1,19 @@
+{
+  "name": "dotnet-ssl-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "dotnet build ./dotnetHTTPLib",
+    "pretest": "npm run build",
+    "test": "tsx test-http.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "node-api-dotnet": "^0.9.19"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}
