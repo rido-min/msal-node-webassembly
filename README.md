@@ -1,10 +1,8 @@
 # node-dotnet-ssl-issue
 
-Minimal reproduction of a SIGSEGV crash when making HTTPS requests from .NET code running inside Node.js via [node-api-dotnet](https://github.com/microsoft/node-api-dotnet).
-
 ## The Problem
 
-HTTP requests from .NET's `HttpClient` work fine when hosted in Node.js, but HTTPS requests crash with a **SIGSEGV** on Node.js 22+. Node.js 18 is unaffected.
+msal-node does not support agentic tokens
 
 ## Project Structure
 
