@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ConsoleTests/ConsoleTests.csproj" />
+  <Project Path="dotnetHTTPLib/dotnetHTTPLib.csproj" />
+</Solution>

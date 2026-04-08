@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /c/_code/temp/msal-node-webassembly/dotnetHTTPLib/bin -type f -name *.cjs -o -name *.d.ts)",
+      "Bash(npx tsx:*)",
+      "Bash(node -e \"const m = require\\(''./dotnetHTTPLib/bin/Debug/net9.0/dotnetHTTPLib.cjs''\\); console.log\\(''keys:'', Object.keys\\(m\\)\\); console.log\\(''full:'', m\\);\")",
+      "Bash(node -e \":*)",
+      "Bash(dotnet build:*)",
+      "Bash(dotnet run:*)"
+    ]
+  }
+}

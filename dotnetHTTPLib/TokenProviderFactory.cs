@@ -35,16 +35,7 @@ public static class TokenProviderFactory
             Args = [],
         });
 
-        builder.Configuration.AddInMemoryCollection(new Dictionary<string, string?>
-        {
-            ["AzureAd:Instance"] = instance,
-            ["AzureAd:TenantId"] = tenantId,
-            ["AzureAd:ClientId"] = clientId,
-            ["AzureAd:ClientSecret"] = clientSecret,
-        });
-
-        builder.Services.AddLogging();
-        builder.Services.AddAgenticTokenProvider(builder.Configuration, scope);
+        builder.Services.AddAgenticTokenProvider(scope, tenantId, clientId, clientSecret, instance);
 
         var host = builder.Build();
         var scope1 = host.Services.CreateScope();
