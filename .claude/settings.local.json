@@ -6,7 +6,9 @@
       "Bash(node -e \"const m = require\\(''./dotnetHTTPLib/bin/Debug/net9.0/dotnetHTTPLib.cjs''\\); console.log\\(''keys:'', Object.keys\\(m\\)\\); console.log\\(''full:'', m\\);\")",
       "Bash(node -e \":*)",
       "Bash(dotnet build:*)",
-      "Bash(dotnet run:*)"
+      "Bash(dotnet run:*)",
+      "Bash(find C:_codetempmsal-node-webassembly -type f \\\\\\(-name *.sln -o -name *.csproj -o -name *.vbproj \\\\\\))",
+      "Bash(cd:*)"
     ]
   }
 }

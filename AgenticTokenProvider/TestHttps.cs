@@ -1,4 +1,4 @@
-﻿namespace dotnetHTTPLib;
+﻿namespace AgenticTokens;
 
 using Microsoft.JavaScript.NodeApi;
 

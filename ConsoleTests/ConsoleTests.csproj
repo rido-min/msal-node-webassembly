@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\dotnetHTTPLib\dotnetHTTPLib.csproj" />
+    <ProjectReference Include="..\AgenticTokenProvider\AgenticTokenProvider.csproj" />
   </ItemGroup>
 
 </Project>

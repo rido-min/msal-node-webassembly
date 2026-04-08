@@ -1,4 +1,4 @@
-import TestHttps from './dotnetHTTPLib/bin/Debug/net9.0/dotnetHTTPLib.cjs';
+import TestHttps from './AgenticTokenProvider/bin/Debug/net9.0/AgenticTokenProvider.cjs';
 
 // HTTP works on ALL Node.js versions
 const httpResult = await TestHttps.TestHttps.fetchAsync('http://httpbin.org/get');

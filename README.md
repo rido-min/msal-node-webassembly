@@ -6,7 +6,7 @@ msal-node does not support agentic tokens
 
 ## Project Structure
 
-- **`dotnetHTTPLib/`** — A .NET 9.0 library exposing a `TestHttps.FetchAsync(url)` method via `[JSExport]`
+- **`AgenticTokenProvider/`** — A .NET 9.0 library exposing a `TestHttps.FetchAsync(url)` method via `[JSExport]`
 - **`test-http.ts`** — TypeScript script that calls the .NET method with both HTTP and HTTPS URLs
 
 ## Prerequisites

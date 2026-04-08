@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "dotnet build ./dotnetHTTPLib",
+    "build": "dotnet build ./AgenticTokenProvider",
     "pretest": "npm run build",
     "test": "tsx test-http.ts"
   },

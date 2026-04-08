@@ -1,6 +1,6 @@
 import { createRequire } from 'node:module';
 const require = createRequire(import.meta.url);
-const dotnetLib = require('./dotnetHTTPLib/bin/Debug/net9.0/dotnetHTTPLib.cjs');
+const dotnetLib = require('./AgenticTokenProvider/bin/Debug/net9.0/AgenticTokenProvider.cjs');
 
 const tenantId = '3f3d1cea-7a18-41af-872b-cfbbd5140984';
 const clientId = 'f7c0e80b-b00e-48ac-8b57-363a2a9a7cda';
